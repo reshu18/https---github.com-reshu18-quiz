@@ -1,0 +1,48 @@
+.home-container {
+  max-width: 500px;
+  min-width: 250px;
+  background: rgba(45, 39, 75, 0.9); /* Dark background color with opacity */
+  border-radius: 16px;
+  margin-top: 50px;
+  padding: 30px 60px;
+  box-shadow: 0 0 20px rgba(255, 192, 203, 0.4);
+  animation: fadeIn 0.5s ease; /* Fade-in animation */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.home-container h1 {
+  font-size: 24px; /* Adjust font size if needed for emphasis */
+  font-weight: 600;
+  color: #ffd6ff;
+  margin-bottom: 20px;
+}
+
+.home-container p {
+  font-size: 16px; /* Consistent font size for readability */
+  color: #e0dee3;
+  margin-bottom: 20px;
+}
+
+.home-container button {
+  width: 100%;  /* Consistent width for button */
+  padding: 12px;
+  background: #800080; /* Same background color as login button */
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.home-container button:hover {
+  background: #993366; /* Same hover effect as login button */
+}

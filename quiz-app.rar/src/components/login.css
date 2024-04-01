@@ -1,0 +1,54 @@
+.login-container {
+    max-width: 500px;
+    min-width: 250px;
+    background: rgba(45, 39, 75, 0.9); /* Dark background color with opacity */
+    border-radius: 16px;
+    margin-top: 50px;
+    padding: 30px 60px;
+    box-shadow: 0 0 20px rgba(255, 192, 203, 0.4);
+    animation: fadeIn 0.5s ease; /* Fade-in animation */
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .login-container h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #ffd6ff;
+    margin-bottom: 20px;
+  }
+  
+  .login-container form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    background: #3b335f;
+    border: none;
+    border-radius: 8px;
+    color: #e0dee3;
+    font-size: 16px;
+  }
+  
+  .login-container form button {
+    width: 100%;
+    padding: 12px;
+    background: #800080;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-container form button:hover {
+    background: #993366;
+  }
+  
